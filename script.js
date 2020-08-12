@@ -83,7 +83,11 @@ function visitCounter() {
     }, rand);
 }());
 
+let ticketButtons = document.querySelectorAll(".ticket_button");
 
-
-//setInterval(customerCounter, timeIntervals[Math.floor(Math.random() * 6)]);
-// setInterval(visitCounter, timeIntervals[Math.floor(Math.random() * 6)]);
+ticketButtons.forEach(button => {
+    button.addEventListener('click', function () {
+        ticketsSold +=1;
+        ticketTarget.innerText = ticketsSold;
+    });
+})
