@@ -1,14 +1,22 @@
-* {
+.slides {
+    margin:30px;
+    padding:10px 20px;
+    width: 400px;
+    height: 250px;
+}
+
+#maintitle {
+    color: #065446;
+    background-color: #fadcac;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 3px;
+    width: ;
+    height: ;
     margin:0;
     padding:0;
 }
 
-.carrousel_container {
-    width: 50%;
-    height: 100%;
-}
-
 body {
-    height: 100%;
-    width: 100%;
+    background-color: #cffffe;
 }
