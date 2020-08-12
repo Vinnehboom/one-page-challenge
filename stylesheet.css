@@ -1,6 +1,6 @@
 .slides {
-    margin:30px;
-    padding:10px 20px;
+    margin: 30px;
+    padding: 10px 20px;
     width: 400px;
     height: 250px;
 }
@@ -9,14 +9,35 @@
     color: #065446;
     background-color: #fadcac;
     font-size: 40px;
-    font-family: Arial, sans-serif;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
     letter-spacing: 3px;
     width: ;
     height: ;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
+#carousel_container
+
+.slides
+
 body {
+    font-family: 'Cabin', sans-serif;
     background-color: #cffffe;
+    font-size: 30px;
 }
+
+.text {
+    font-style: italic;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+    a:hover {
+        color: #382933;
+    }
