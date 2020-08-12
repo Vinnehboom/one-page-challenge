@@ -1,8 +1,8 @@
-.slides {
+.slides > img {
     margin: 30px;
     padding: 10px 20px;
-    width: 400px;
-    height: 250px;
+    width: 500px;
+    height: auto;
 }
 
 #maintitle {
@@ -12,32 +12,37 @@
     font-family: 'Cabin', sans-serif;
     text-align: center;
     letter-spacing: 3px;
-    width: ;
-    height: ;
     margin: 0;
     padding: 0;
 }
 
-#carousel_container
+#carousel_container {
+    position: relative;
+    margin: 0 auto;
+}
 
-.slides
+
+.buttoncontainer {
+    font-size: 1 OOpx;
+}
 
 body {
     font-family: 'Cabin', sans-serif;
     background-color: #cffffe;
-    font-size: 30px;
 }
 
 .text {
-    font-style: italic;
-}
-
-
-/* For mobile phones: */
-[class*="col-"] {
+    color: #ebecf1;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 230px;
+    left: 50px;
     width: 100%;
+    z-index: 10;
 }
 
-    a:hover {
-        color: #382933;
-    }
+
+a:hover {
+    color: #382933;
+}
